@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="record.wilson.flutter.com.flutter_plugin_record" >
+4
+5    <uses-sdk android:minSdkVersion="19" />
+5-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+7-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:3:5-71
+7-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:3:22-68
+8    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+8-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:4:5-81
+8-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:4:22-78
+9    <uses-permission android:name="android.permission.WAKE_LOCK" />
+9-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:5:5-68
+9-->/Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:5:22-65
+10
+11</manifest>

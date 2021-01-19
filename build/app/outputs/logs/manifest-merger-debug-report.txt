@@ -1,0 +1,492 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:video_player] /Users/Victor/Project/circle/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/Victor/Project/circle/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/Victor/Project/circle/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:im_flutter_sdk] /Users/Victor/Project/circle/build/im_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] /Users/Victor/Project/circle/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:keyboard_visibility] /Users/Victor/Project/circle/build/keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/Victor/Project/circle/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:emoji_picker] /Users/Victor/Project/circle/build/emoji_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:flutter_sound] /Users/Victor/Project/circle/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/Victor/Project/circle/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_cropper] /Users/Victor/Project/circle/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/Victor/Project/circle/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/96c8b63ebe1129065acd632ab7d9b7cf/ucrop-2.2.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/9d18357ce2f8b1775546beb85d77a5ed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/c5011cfa66deabfe1680c4d45f737145/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:16:1-23:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0d0364dd4dfbe053812679d71e9451b7/transition-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6d35bbbe327ef689c582d1173367f0ed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5e2bda8b5b2a6382c28d5845fe99a3f2/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8dc7a95bf624d037e4052017a154fb87/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/40e71932702ef8f8920c41273ae71b13/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8f2fc92b2078bd7cab79dd2c2c472fe1/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a3502f0c034f3fdf4a0888cb384ed9a0/exifinterface-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a85d5d68b2b3b872c4df332f9583b715/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:2:1-20:12
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:8:5-33:19
+MERGED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/9d18357ce2f8b1775546beb85d77a5ed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/9d18357ce2f8b1775546beb85d77a5ed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/c5011cfa66deabfe1680c4d45f737145/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/c5011cfa66deabfe1680c4d45f737145/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:19:5-21:19
+MERGED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a85d5d68b2b3b872c4df332f9583b715/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a85d5d68b2b3b872c4df332f9583b715/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:10:9-31
+	android:icon
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:9:9-57
+activity#com.appalloc.circle.MainActivity
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:12:9-23:20
+	android:launchMode
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:configChanges
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:24:9-27:71
+	android:screenOrientation
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:26:13-49
+	android:theme
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:25:13-60
+meta-data#flutterEmbedding
+ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:30:9-32:33
+	android:value
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:32:13-30
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:31:13-44
+uses-sdk
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+MERGED from [:video_player] /Users/Victor/Project/circle/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player] /Users/Victor/Project/circle/build/video_player/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/Victor/Project/circle/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/Victor/Project/circle/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/Victor/Project/circle/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/Victor/Project/circle/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:im_flutter_sdk] /Users/Victor/Project/circle/build/im_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:im_flutter_sdk] /Users/Victor/Project/circle/build/im_flutter_sdk/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/Victor/Project/circle/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/Victor/Project/circle/build/device_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:keyboard_visibility] /Users/Victor/Project/circle/build/keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:keyboard_visibility] /Users/Victor/Project/circle/build/keyboard_visibility/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/Victor/Project/circle/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/Victor/Project/circle/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:emoji_picker] /Users/Victor/Project/circle/build/emoji_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:emoji_picker] /Users/Victor/Project/circle/build/emoji_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/Victor/Project/circle/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] /Users/Victor/Project/circle/build/flutter_sound/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/Victor/Project/circle/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/Victor/Project/circle/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/Victor/Project/circle/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/Victor/Project/circle/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/Victor/Project/circle/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/Victor/Project/circle/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/96c8b63ebe1129065acd632ab7d9b7cf/ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/96c8b63ebe1129065acd632ab7d9b7cf/ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/7def8d6c3751559765cf68c2d5a2dddd/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/9d18357ce2f8b1775546beb85d77a5ed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/9d18357ce2f8b1775546beb85d77a5ed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/c5011cfa66deabfe1680c4d45f737145/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/c5011cfa66deabfe1680c4d45f737145/jetified-play-services-tasks-11.4.0/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:17:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/09be4c98f955b63e9a8cadeb6d33d870/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/60c890b7febb99854cab301d6a2a855b/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0d0364dd4dfbe053812679d71e9451b7/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/Victor/.gradle/caches/transforms-2/files-2.1/0d0364dd4dfbe053812679d71e9451b7/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2410fdb7000841f3d1c8c67029d91e2f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b1c3739a180dfdcda5d6182680201b94/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6d35bbbe327ef689c582d1173367f0ed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6d35bbbe327ef689c582d1173367f0ed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/23edc849475fdda61367cb003f9b9f93/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5e2bda8b5b2a6382c28d5845fe99a3f2/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/5e2bda8b5b2a6382c28d5845fe99a3f2/jetified-exoplayer-hls-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8dc7a95bf624d037e4052017a154fb87/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8dc7a95bf624d037e4052017a154fb87/jetified-exoplayer-dash-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/40e71932702ef8f8920c41273ae71b13/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/40e71932702ef8f8920c41273ae71b13/jetified-exoplayer-smoothstreaming-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8f2fc92b2078bd7cab79dd2c2c472fe1/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8f2fc92b2078bd7cab79dd2c2c472fe1/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a3502f0c034f3fdf4a0888cb384ed9a0/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a3502f0c034f3fdf4a0888cb384ed9a0/exifinterface-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a85d5d68b2b3b872c4df332f9583b715/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a85d5d68b2b3b872c4df332f9583b715/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:8:5-11:39
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:8:5-11:39
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:11:9-36
+	android:minSdkVersion
+		INJECTED from /Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:20:5-66
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:16:5-67
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-80
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-80
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:13:5-80
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:12:5-81
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-71
+MERGED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-71
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:11:5-71
+MERGED from [com.github.shaoshuai904:RecordWav:1.0.2] /Users/Victor/.gradle/caches/transforms-2/files-2.1/f959795f54f55765a7ec3ced13a12fe0/RecordWav-1.0.2/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from [:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:18:5-68
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:18-87
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:25:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8f2fc92b2078bd7cab79dd2c2c472fe1/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/Victor/.gradle/caches/transforms-2/files-2.1/8f2fc92b2078bd7cab79dd2c2c472fe1/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:17:5-79
+MERGED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:19:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:17-71
+permission#com.appalloc.circle.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:22-76
+uses-permission#com.appalloc.circle.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.appalloc.circle
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:27-58
+category#com.appalloc.circle
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:15:22-73

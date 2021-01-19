@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:2:3-60
+		INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:3:5-71
+	android:name
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:3:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml:5:22-65
+uses-sdk
+INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Library/flutter/.pub-cache/git/flutter_plugin_record-ff67a378904e56e0afb20490e54b0db4b84778ba/android/src/main/AndroidManifest.xml

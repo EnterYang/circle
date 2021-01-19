@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.appalloc.circle"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/Victor/Project/circle/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+16-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->[:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-80
+17-->[:photo_manager] /Users/Victor/Project/circle/build/photo_manager/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->[:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+18-->[:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+19-->[:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+19-->[:camera] /Users/Victor/Project/circle/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+20-->[:flutter_plugin_record] /Users/Victor/Project/circle/build/flutter_plugin_record/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:19:5-78
+21-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:19:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:22:5-81
+22-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:22:22-79
+23
+24    <permission
+24-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:5-109
+25        android:name="com.appalloc.circle.permission.C2D_MESSAGE"
+25-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:17-71
+26        android:protectionLevel="signature" />
+26-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:24:72-107
+27
+28    <uses-permission android:name="com.appalloc.circle.permission.C2D_MESSAGE" />
+28-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:5-78
+28-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:26:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:13:5-81
+29-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:13:22-78
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:14:5-79
+30-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:14:22-76
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:15:5-76
+31-->[com.hyphenate:hyphenate-sdk:3.6.7] /Users/Victor/.gradle/caches/transforms-2/files-2.1/6aa33269b29b26789feaa406d9372ef0/jetified-hyphenate-sdk-3.6.7/AndroidManifest.xml:15:22-73
+32    <!--
+33 io.flutter.app.FlutterApplication is an android.app.Application that
+34         calls FlutterMain.startInitialization(this); in its onCreate method.
+35         In most cases you can leave this as-is, but you if you want to provide
+36         additional functionality it is fine to subclass or reimplement
+37         FlutterApplication and put your custom class here.
+38    -->
+39    <application
+39-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:8:5-33:19
+40        android:name="io.flutter.app.FlutterApplication"
+40-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:9:9-57
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.1.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:11:9-43
+44        android:label="circle" >
+44-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:10:9-31
+45        <activity
+45-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:12:9-23:20
+46            android:name="com.appalloc.circle.MainActivity"
+46-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:13:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:16:13-163
+48            android:hardwareAccelerated="true"
+48-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:17:13-47
+49            android:launchMode="singleTop"
+49-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:14:13-43
+50            android:theme="@style/LaunchTheme"
+50-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:15:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:18:13-55
+52            <intent-filter>
+52-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:19:13-22:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:20:17-68
+53-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:20:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:21:17-76
+55-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:21:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:24:9-27:71
+59            android:name="com.yalantis.ucrop.UCropActivity"
+59-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:25:13-60
+60            android:screenOrientation="portrait"
+60-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:26:13-49
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+61-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:27:13-69
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:30:9-32:33
+67            android:name="flutterEmbedding"
+67-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:31:13-44
+68            android:value="2" />
+68-->/Users/Victor/Project/circle/android/app/src/main/AndroidManifest.xml:32:13-30
+69
+70        <provider
+70-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+71            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+71-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+72            android:authorities="com.appalloc.circle.flutter.image_provider"
+72-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+73            android:exported="false"
+73-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+74            android:grantUriPermissions="true" >
+74-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+75            <meta-data
+75-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+77                android:resource="@xml/flutter_image_picker_file_paths" />
+77-->[:image_picker] /Users/Victor/Project/circle/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+78        </provider>
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:9-172
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:19-85
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:146-170
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/776880e85b041ccd3e3a017728cf2ac3/jetified-play-services-base-11.4.0/AndroidManifest.xml:19:86-145
+84        <!--
+85 FirebaseMessagingService performs security checks at runtime,
+86             no need for explicit permissions despite exported="true"
+87        -->
+88        <service
+88-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:9-27:19
+89            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+89-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:18-87
+90            android:exported="true" >
+90-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:23:88-111
+91            <intent-filter android:priority="-500" >
+91-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:24:13-26:29
+91-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:24:28-51
+92                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+92-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:25:17-77
+92-->[com.google.firebase:firebase-messaging:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/e3eb6608fda2d11414a13f1552f31b6b/jetified-firebase-messaging-11.4.0/AndroidManifest.xml:25:25-75
+93            </intent-filter>
+94        </service>
+95
+96        <receiver
+96-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:9-35:20
+97            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+97-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:19-84
+98            android:exported="true"
+98-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:85-108
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:30:109-169
+100            <intent-filter>
+100-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:31:13-34:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:32:17-80
+101-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:32:25-78
+102
+103                <category android:name="com.appalloc.circle" />
+103-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:17-60
+103-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:33:27-58
+104            </intent-filter>
+105        </receiver>
+106        <!--
+107 Internal (not exported) receiver used by the app to start its own exported services
+108             without risk of being spoofed.
+109        -->
+110        <receiver
+110-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:9-119
+111            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+111-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:19-92
+112            android:exported="false" />
+112-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:39:93-117
+113        <!--
+114 FirebaseInstanceIdService performs security checks at runtime,
+115             no need for explicit permissions despite exported="true"
+116        -->
+117        <service
+117-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:9-47:19
+118            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+118-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:18-82
+119            android:exported="true" >
+119-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:43:83-106
+120            <intent-filter android:priority="-500" >
+120-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:44:13-46:29
+120-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:44:28-51
+121                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+121-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:45:17-79
+121-->[com.google.firebase:firebase-iid:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3e9f642f6acc2bad41d4fe064e5f4030/jetified-firebase-iid-11.4.0/AndroidManifest.xml:45:25-77
+122            </intent-filter>
+123        </service>
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:9-194
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:79-143
+127            android:authorities="com.appalloc.circle.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:19-78
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:144-168
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/3844e079a62dbda2e496b6eee084afc9/jetified-firebase-common-11.4.0/AndroidManifest.xml:6:169-192
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:9-121
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:20-65
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:11.4.0] /Users/Victor/.gradle/caches/transforms-2/files-2.1/33b7d9708693289fff5c0f5174c2493d/jetified-play-services-basement-11.4.0/AndroidManifest.xml:20:66-119
+134    </application>
+135
+136</manifest>
